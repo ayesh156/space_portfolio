@@ -30,7 +30,8 @@ const HeroContent = () => {
             Providing
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}the best{" "}</span>
-            project exprience
+            project experience
+
             </span>
         </motion.div>
 
@@ -47,6 +48,7 @@ const HeroContent = () => {
             Learn More!
         </motion.a>
         </div>
+        
         <motion.div
          variants={slideInFromRight(0.8)}
          className='w-full h-full flex justify-center items-center'
